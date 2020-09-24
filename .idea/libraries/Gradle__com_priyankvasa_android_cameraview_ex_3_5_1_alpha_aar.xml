@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.priyankvasa.android:cameraview-ex:3.5.1-alpha@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/622c1597bf78edc79189164b12d89ca6/jetified-cameraview-ex-3.5.1-alpha/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/622c1597bf78edc79189164b12d89ca6/jetified-cameraview-ex-3.5.1-alpha/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.priyankvasa.android/cameraview-ex/3.5.1-alpha/42b7d87e2e8fd67d2483aedacdfbec68b67c34d2/cameraview-ex-3.5.1-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

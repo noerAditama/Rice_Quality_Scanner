@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Deskripsi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="times"
+            android:text="Deskripsi Kualitas Beras"
+            android:textColor="@android:color/background_dark"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/_1_beras_kualitas_premium"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ir64_premium" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:autoLink="all"
+            android:background="#4CAF50"
+            android:lineSpacingMultiplier="1"
+            android:linksClickable="true"
+            android:text="@string/content_premium"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/_2_beras_kualitas_medium"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ir64_medium" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#4CAF50"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/content_medium"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/_3_beras_kualitas_tidak_layak"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ir64_tidak_layak" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:autoLink="all"
+            android:background="#4CAF50"
+            android:lineSpacingMultiplier="1"
+            android:linksClickable="true"
+            android:text="@string/content_tidak_layak"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+</ScrollView>

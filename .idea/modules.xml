@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rice_Quality_Scanner.iml" filepath="$PROJECT_DIR$/.idea/modules/Rice_Quality_Scanner.iml" group="Rice_Quality_Scanner" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Rice_Quality_Scanner/app" />
+    </modules>
+  </component>
+</project>

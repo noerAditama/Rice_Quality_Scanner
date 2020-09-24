@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RqS-VGG16Net</string>
+    <string name="pendeteksi">Deteksi Beras dengan Kamera</string>
+    <string name="import_gallery">Deteksi Beras dari Galeri</string>
+    <string name="deskripsi">Deskripsi Kualitas Beras</string>
+    <string name="content_premium">premium</string>
+    <string name="content_medium">medium</string>
+    <string name="content_tidak_layak">tidak layak</string>
+    <string name="tentang">Tentang Aplikasi</string>
+    <string name="content_about">Aplikasi ini dibuat untuk klasifikasi kualitas beras (Premium, Medium, dan Tidak Layak) menggunakan sebuah metode CNN (<i>Convolutional Neural Network</i>) dengan model arsitektur VGG-16Net. Arsitektur tersebut dilatih pada <i>Google Colaboratory</i>. Setelah dilatih disimpan modelnya dan dikonversi menggunakan <i>TensorFlow Lite</i>. Setelah dikonversi diunduh <i>file</i> modelnya dan di-<i>import</i> untuk diimplementasikan pada <i>smartphone Android</i> agar dapat melakukan klasifikasi kualitas beras secara langsung menggunakan sebuah perangkat Android.\n\n
+        Pada aplikasi ini juga diatur secara otomatis penggunaan <i>flash</i> kameranya agar perubahan cahaya yang ada tidak berbeda signifikan ketika berada di luar ruangan yang banyak cahaya maupun di dalam ruangan yang minim cahaya karena cahaya <i>flash</i> kamera <i>smartphone</i> dapat menyala dan mati secara otomatis berdasarkan intensitas cahaya yang ada. Hal itu dapat mempermudah pengguna untuk mendeteksi kualitas berasnya.\n\n
+        <i>Sourcecode</i> program pada <i>Google Colaboratory</i> dan <i>Android Studio</i> : https://github.com/Soedirman-Machine-Learning/rice-quality-classification</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="content_work">Aplikasi ini bekerja dengan cara mengambil citra/gambar obyek dari beras menggunakan kamera <i>smartphone</i>. Setelah itu diekstrak fitur dari piksel obyek tersebut dan diubah ke dalam bentuk <i>array</i> dengan ukuran piksel 224 x 224 dengan format gambar berwarna (RGB). Kemudian dilatih dan diproses menggunakan model yang sudah dilatih sebelumnya sehingga dapat diprediksi hasil keluaran dari kuslitas beras yang dideteksi.</string>
+    <string name="content_step_1">Buka Aplikasi Klasifikasi Kualitas Beras kemudian pilih menu "PENDETEKSI KUALITAS BERAS"</string>
+    <string name="content_step_2">Setelah terbuka menu tersebut arahkan kamera ke obyek beras yang ingin dideteksi (jarak kamera dengan obyek sekitar 10 cm), kemudian klik/tap tombol "Deteksi"</string>
+    <string name="content_step_3">Hasil prediksi akan muncul beberapa saat setelah menekan tombol "Deteksi" di bagian bawah layar dalam persentase (% diurutkan dari yang tertinggi). Persentase tertinggi merupakan hasil prediksi yang paling mendekati/mirip</string>
+    <string name="content_step_4">Buka menu "DETEKSI BERAS DARI GALERI" jika ingin mengklasifikasi secara manual dengan mengimpor gambar yang sudah tersimpan di galeri foto</string>
+    <string name="content_step_5">Klik tombol "PILIH GAMBAR" dan cari gambar obyek beras yang ingin dideteksi</string>
+    <string name="content_step_6">Selanjutnya tekan tombol DETEKSI dan hasil prediksinya akan muncul beberapa saat setelah menekannya di bagian bawah layar</string>
+    <string name="content_step_7">Jika Anda ingin mengetahui penjelasan singkat tiap kualitas beras pilih menu "DESKRIPSI KUALITAS BERAS, Menu "BANTUAN" untuk mengetahui cara penggunaan aplikasi ini, dan Menu "TENTANG APLIKASI" sebagai informasi pembuatan aplikasi ini.</string>
+    <string name="hasil_1_nhasil_2_nhasil_3"><b>Hasil 1</b>\nHasil 2\nHasil 3</string>
+    <string name="process_time">… ms   </string>
+    <string name="delay_time">… ms   </string>
+    <string name="info">Klik DETEKSI untuk Klasifikasi</string>
+    <string name="buttonSelectPhoto">Pilih Gambar</string>
+    <string name="descriptionImage">Lihat untuk Menampilkan Gambar</string>
+    <string name="display_result"><b>Hasil Prediksi</b>\n</string>
+    <string name="hints">Pilih Gambar Lalu Klik DETEKSI</string>
+    <string name="update"><b>Pembaruan Fitur :</b></string>
+    <string name="content_update_1">Versi 1.0\n- Klasifikasi Kualitas Beras dengan kamera</string>
+    <string name="author_noer_aditama">Author : Noer Aditama</string>
+    <string name="_1_beras_kualitas_premium">1. Beras Kualitas Premium</string>
+    <string name="_2_beras_kualitas_medium">2. Beras Kualitas Medium</string>
+    <string name="_3_beras_kualitas_tidak_layak">3. Beras Kualitas Tidak Layak</string>
+    <string name="todo">TODO</string>
+    <string name="rice_quality_scanner">Rice Quality Scanner</string>
+</resources>
